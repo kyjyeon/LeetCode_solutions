@@ -1,5 +1,5 @@
 //Used classic quickSort
-//But read statistically giving pivot index randomly is faster than fixing pivot location in a certain area
+//Read statistically giving pivot index randomly is faster than fixing pivot location at a certain area
 class Solution {
 public:
     void swap(vector<int>& nums, int i, int j) {
