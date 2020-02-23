@@ -1,3 +1,5 @@
+//Reference
+//Noticed how handful sort library and vector methods(emplace_back(), back()) can be !
 class Solution {
 public:
     vector<vector<int>> merge(vector<vector<int>>& intervals) {
@@ -21,3 +23,4 @@ public:
         return result;
     }
 };
+//Need to use max , min methods to make the code line smaller and cleaner
