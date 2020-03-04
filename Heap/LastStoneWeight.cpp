@@ -26,7 +26,7 @@ public:
 };
 
 
-//Other interesting code in Discuss using max_heap();
+//Other interesting code in Discuss using make_heap();
 int lastStoneWeight(vector<int>& stones) {
         make_heap(stones.begin(),stones.end());
         int x,y;
