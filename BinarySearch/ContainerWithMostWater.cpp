@@ -14,7 +14,7 @@ int maxArea(vector<int>& height) {
 
 
 //My code(Wrong Answer)
-//(Maybe was thinking too much... Thought I had to consider a lot about the width size also...)
+//(Maybe was thinking too much... Thought I had to consider a lot about the width size also... Making codes too complicated...)
 class Solution {
 public:
     int maxArea(vector<int>& height) {
