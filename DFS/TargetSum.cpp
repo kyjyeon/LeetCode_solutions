@@ -1,4 +1,5 @@
 //Reference
+//From most conventional way to effective way
 
 //O(2 ^ n) brute force
 int findTargetSumWays(vector<int>& nums, int S) {
