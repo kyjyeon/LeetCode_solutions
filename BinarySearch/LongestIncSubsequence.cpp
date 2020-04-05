@@ -1,9 +1,9 @@
 int lengthOfLIS(vector<int>& nums) {
     vector<int> res;
     for(int i=0; i<nums.size(); i++) {
-        auto it = std::lower_bound(res.begin(), res.end(), nums[i]);
+        auto it = std::lower_bound(res.begin(), res.end(), nums[i]);  //use auto to shorten iterator calling code
         if(it==res.end()) res.push_back(nums[i]);
-        else *it = nums[i];
+        else *it = nums[i];     //*it calls iterator current location
     }
     return res.size();
 }
