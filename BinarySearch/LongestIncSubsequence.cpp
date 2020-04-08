@@ -9,6 +9,7 @@ int lengthOfLIS(vector<int>& nums) {
 }
 
 
+//Good explanation added
 /*
 The algo is O(nlogn) because lower_bound() is logarithmic on a sorted input. We keep our vector res sorted, so the search in dp is logarithmic.
 Res is composed to be:
